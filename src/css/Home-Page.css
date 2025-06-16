@@ -1,0 +1,101 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 700px; 
+  background-image: url('../assets/Pointing.jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  color: white;
+  overflow: hidden;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(16, 40, 63, 0.95); 
+  z-index: 1;
+  opacity: 98%;
+  overflow-y: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: start;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.highlight {
+  color: #dbad39;
+}
+
+.recuperation{
+  font-size: 100px;
+  width: 60%;
+  z-index: 99;
+  line-height: 1;
+  font-family: 'Inter', serif;
+}
+
+.sub-text{
+  font-size: 30px;
+  width: 40%;
+  z-index: 99;
+  font-family: 'Inter', serif;
+}
+
+.pill {
+  font-family: 'Inter', serif;
+  margin-top: 90px;
+  display: inline-block;
+  background-color: #dbad39;
+  color: #10283f;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: 'Inter', serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  z-index: 99;
+  cursor: pointer; 
+  width: 15%;
+  text-align: center;
+}
+
+.pill:hover {
+  transform: scale(1.05);
+}
+
+.who-we-are {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+}
+
+
+.sub-text{
+  font-size: 30px;
+  width: 40%;
+  z-index: 99;
+  font-family: 'Inter', serif;
+}
