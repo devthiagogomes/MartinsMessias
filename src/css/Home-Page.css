@@ -90,12 +90,5 @@
   align-items: center;
   padding: 60px;
   gap: 40px;
-}
-
-
-.sub-text{
-  font-size: 30px;
-  width: 40%;
-  z-index: 99;
-  font-family: 'Inter', serif;
+  background-color: #f4f4f4;
 }

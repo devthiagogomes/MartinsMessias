@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+.highlight {
+  color: #dbad39;
+  font-family: 'Inter', serif;
+}
+  
+.title{
+  font-size: 100px;
+  width: 60%;
+  z-index: 99;
+  line-height: 1;
+  font-family: 'Inter';
+}
+
+.sub-text{
+  font-size: 30px;
+  width: 40%;
+  z-index: 99;
+  font-family: 'Inter';
+}
+
+.upper-line{
+  background-color: #10283f;
+  height: 5px;
+  width: 50%;
+  align-self: flex-start;
+}
+
+.lower-line{
+  background-color: #dbad39;
+  height: 5px;
+  width: 50%;
+  align-self: flex-end;
+}

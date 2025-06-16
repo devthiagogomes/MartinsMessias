@@ -1,11 +1,9 @@
-import { Link } from 'react-router-dom';
+import '../css/Header.css';
 
 export default function Footer() {
   return (
-    <nav>
-      <Link to="/">Início</Link>
-      <Link to="/sobre">Sobre</Link>
-      <Link to="/contato">Contato</Link>
-    </nav>
+    <div className="footer">
+    © 2025 - Martins & Messias | Todos os direitos reservados
+    </div>
   );
 }

@@ -29,3 +29,13 @@ nav {
     color: #dbad39;
   }
   
+  .footer{
+    width: 100%;
+    display: flex;
+    font-family: 'Inter', serif;
+    text-decoration: none;
+    color: #10283f;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
