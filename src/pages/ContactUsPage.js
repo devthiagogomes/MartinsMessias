@@ -5,7 +5,7 @@ export default function ContactUsPage() {
     <div style={styles.container}>
       <h1 style={styles.title}>Bem-vindo à <span style={styles.highlight}>Empresa X</span></h1>
       <p style={styles.subtitle}>
-        Somos especialistas em soluções criativas para transformar o seu negócio.
+       ContactUs
       </p>
       <a href="/contato" style={styles.button}>
         Fale Conosco
