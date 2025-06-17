@@ -1,0 +1,45 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 4vh 4vw;
+}
+
+
+.highlight {
+  color: #dbad39;
+  font-family: 'Inter', serif;
+}
+
+.title {
+  font-size: clamp(40px, 8vw, 100px);
+  width: 70%;
+  line-height: 1.1;
+  font-family: 'Inter', serif;
+}
+
+.plan{
+  font-size: 1.3vw;
+  width: 35%;
+  line-height: 1.1;
+  font-family: 'Inter', serif;
+}
+
+.investment-plan{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.divider{
+  /* height: 100%; */
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 0.2vw;
+  background-color: #dbad39;
+}

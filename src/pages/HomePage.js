@@ -24,7 +24,7 @@ export default function HomePage() {
           <div className='sub-text'>
             Somos um <span className="highlight">escritório especializado</span> na atuação empresarial, com sócios e parceiros com mais de 10 anos de atuação em demandas empresariais, cíveis, gestão e solução de casos complexos, através de estratégias que buscam o equilíbrio entre segurança e rapidez, por reconhecermos a necessidade dinâmica do meio empresarial.
           </div>
-          <Space height={40} />
+          <Space height={2} />
           <div className='sub-text'>
             Temos experiência diferenciada no mercado, com atuação sistematizada, procedimentos claros e focados na melhoria da qualidade de atendimento do cliente.
           </div>

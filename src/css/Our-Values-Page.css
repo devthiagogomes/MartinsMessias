@@ -43,6 +43,31 @@
   align-self: flex-end;
 }
 
+.values{
+  display: flex;
+  flex-direction: column;
+  padding: 4vh;
+  gap: 4vh;
+  width: 100%;
+  align-items: center;
+}
+
+.values-container{
+  background-color: #f2f2f2;  
+  border: 4px solid #cbd5e1; 
+  padding: 20px 30px;         
+  display: inline-block;      
+  color: #1f2937;             
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+  width: 35vh;
+}
+
+.upper-values{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .title {
     width: 90%;
@@ -56,5 +81,9 @@
   .lower-line {
     width: 80%;
     align-self: center;
+  }
+
+  .values{
+    display: none;
   }
 }
