@@ -1,0 +1,123 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 4vh 4vw;
+}
+
+
+.highlight {
+  color: #dbad39;
+  font-family: 'Inter', serif;
+}
+
+.title {
+  font-size: clamp(40px, 8vw, 100px);
+  width: 70%;
+  line-height: 1.1;
+  font-family: 'Inter', serif;
+}
+
+.sub-title{
+  font-size: clamp(40px, 1vw, 100px);
+  width: 70%;
+  line-height: 1.1;
+  font-family: 'Inter', serif;
+}
+
+.action-plan{
+  font-size: 1.3vw;
+  line-height: 1.1;
+  font-family: 'Inter', serif;
+}
+
+.investment-plan{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.planning-meeting{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  justify-content: center;
+  align-items: start;
+  text-align: justify;
+}
+
+.divider{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 0.2vw;
+  background-color: #dbad39;
+}
+
+.tree{
+  display: flex;
+}
+
+.left-wing{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5vh;
+}
+
+.right-wing{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5vh;
+}
+
+.left-ball{
+  height: 14px;
+  background-color: #dbad39;
+  border-radius: 50%;
+  z-index: 2;
+  margin-left: 10px;
+  min-width: 14px;
+}
+
+.right-ball{
+  height: 14px;
+  background-color: #dbad39;
+  border-radius: 50%;
+  z-index: 2;
+  margin-right: 10px;
+  min-width: 14px;
+}
+
+.ball-divider{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ball-text{
+  text-align: start;
+  font-family: 'Inter', serif;
+  text-decoration: none;
+  color: #10283f;
+  font-size: clamp(20px, 1.2vw, 18px);
+  transition: color 0.3s ease;
+}
+
+.ball-line{
+  height: 0.3vh;
+  width: 30%;
+  background-color: #dbad39;
+}
+
+.ball-center-divider{
+  width: 0.3vw;
+  background-color: #dbad39;
+}

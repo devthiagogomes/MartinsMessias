@@ -21,7 +21,7 @@ nav {
 }
 
 .nav-link {
-  font-family: 'Inter', serif;
+  font-family: 'Inter';
   text-decoration: none;
   color: #10283f;
   font-size: clamp(14px, 1.2vw, 18px);
@@ -39,7 +39,7 @@ nav {
 .footer {
   width: 100%;
   display: flex;
-  font-family: 'Inter', serif;
+  font-family: 'Inter';
   justify-content: center;
   margin-top: 2vh;
   margin-bottom: 2vh;
