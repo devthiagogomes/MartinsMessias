@@ -25,7 +25,6 @@
 
 .sub-title{
   font-size: clamp(40px, 1vw, 100px);
-  width: 70%;
   line-height: 1.1;
   font-family: 'Inter', serif;
 }
@@ -114,7 +113,6 @@
   text-align: start;
   font-family: 'Inter', serif;
   text-decoration: none;
-  color: #10283f;
   font-size: clamp(20px, 1.2vw, 18px);
   transition: color 0.3s ease;
 }

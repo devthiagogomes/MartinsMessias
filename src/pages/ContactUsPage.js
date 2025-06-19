@@ -1,50 +1,49 @@
-import { Link } from 'react-router-dom';
+import "../css/Contact-Us-Page.css";
 
 export default function ContactUsPage() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>Bem-vindo à <span style={styles.highlight}>Empresa X</span></h1>
-      <p style={styles.subtitle}>
-       ContactUs
-      </p>
-      <a href="/contato" style={styles.button}>
-        Fale Conosco
-      </a>
+    <div className="container">
+      <div className="title">
+        <span className="highlight">Contato</span>
+      </div>
+      <div className="contact-information">
+        <div className="contact-text">
+          Estamos prontos para ajudar você a conquistar as melhores soluções de
+          crédito. Preencha o formulário abaixo ou entre em contato diretamente
+          conosco. Nossa equipe especializada terá o prazer de entender sua
+          necessidade e oferecer uma consultoria personalizada, com
+          transparência, segurança e agilidade. Fale conosco e descubra como
+          podemos transformar suas possibilidades em resultados.
+        </div>
+        <div class="contact-form-container">
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <div className="name-email-container">
+              <div class="form-group">
+                <label for="name">Seu Nome*</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Seu E-mail*</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Sua Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
-
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '80vh',
-    padding: '0 20px',
-    textAlign: 'center',
-    backgroundColor: '#f4f4f4',
-  },
-  title: {
-    fontSize: '48px',
-    margin: '0',
-    color: '#333',
-  },
-  highlight: {
-    color: '#007bff',
-  },
-  subtitle: {
-    fontSize: '20px',
-    color: '#555',
-    maxWidth: '600px',
-    margin: '20px 0',
-  },
-  button: {
-    backgroundColor: '#007bff',
-    color: '#fff',
-    padding: '12px 24px',
-    textDecoration: 'none',
-    borderRadius: '8px',
-    transition: 'background-color 0.3s ease',
-  },
-};
