@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className='sub-text'>
             Identificamos créditos não aproveitados e transformamos tributos pagos a mais em <span className="highlight">fluxo de caixa</span> para sua empresa.
           </div>
-          <Link to="/contato" className="pill">Descubra nosso trabalho</Link>
+          <Link to="/plano-de-acao" className="pill">Descubra nosso trabalho</Link>
         </div>
       </div>
 
