@@ -49,6 +49,7 @@
   z-index: 99;
   line-height: 1;
   font-family: 'Inter', serif;
+  margin-bottom: 4vh;
 }
 
 .sub-text{
@@ -93,13 +94,16 @@
 }
 
 .who-we-are-title {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
   font-size: clamp(40px, 8vw, 80px);
   text-align: center;
   font-family: 'Inter', serif;
 }
 
 .bottom-text {
-  max-width: 700px;
+  width: 50vw;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -114,6 +118,7 @@
   }
 
   .sub-text {
+    margin-top: 4vh;
     font-size: clamp(16px, 3vw, 20px);
     width: 90%;
     text-align: center;

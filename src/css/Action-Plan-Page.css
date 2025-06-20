@@ -30,7 +30,7 @@
 }
 
 .action-plan{
-  font-size: 1.3vw;
+  font-size: clamp(20px, 1.2vw, 18px);
   line-height: 1.1;
   font-family: 'Inter', serif;
 }
