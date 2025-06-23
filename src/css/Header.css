@@ -1,9 +1,9 @@
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2vh 4vw;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    flex-wrap: wrap;
 }
 
 .logo-container {
@@ -15,9 +15,10 @@ nav {
 
 .button-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   width: 50%;
-  gap: 1vw;
+  gap: 1.3vw;
+  align-items: center;
 }
 
 .nav-link {
@@ -36,6 +37,33 @@ nav {
   color: #dbad39;
 }
 
+.contact-pill{
+  height: 100%;
+  font-family: 'Inter';
+  text-decoration: none;
+  color: #10283f;
+  font-size: clamp(14px, 1.2vw, 18px);
+  transition: color 0.3s ease;
+  display: inline-block;
+  background-color: #10283f;
+  color: white;
+  padding: 1vh 2vh;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 3vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  z-index: 99;
+  cursor: pointer; 
+  width: 15%;
+  text-align: center;
+}
+
+.contact-pill.active{
+  color: #dbad39;
+}
+
 .footer {
   width: 100%;
   display: flex;
@@ -47,8 +75,8 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 2vh;
   }
 
@@ -69,5 +97,8 @@ nav {
 
   .logo-container img {
     height: 60px;
+  }
+  .contact-pill{
+    width: 100%;
   }
 }
