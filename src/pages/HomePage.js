@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="bottom-text">
           <div className="sub-text">
             Somos um{" "}
-            <span className="highlight">uma empresa especializada</span> na
+            <span className="highlight"> empresa especializada</span> na
             recuperação de crédito ICMS, com mais de cinco anos de atuação no
             mercado e já auxiliamos empresas de diversos ramos a recuperarem
             mais de <span className="highlight">500 milhões de reais</span> junto ao orgãos fiscais através da CAT 83/09.
