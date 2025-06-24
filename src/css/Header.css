@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 nav {
     display: flex;
     align-items: center;
@@ -11,16 +13,18 @@ nav {
   align-items: center;
   gap: 1vw;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .button-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;      
   width: 50%;
   gap: 1.3vw;
-  align-items: center;
+  flex-wrap: wrap;
 }
-
 .nav-link {
   font-family: 'Inter';
   text-decoration: none;
@@ -37,6 +41,13 @@ nav {
   color: #dbad39;
 }
 
+.art-deco{
+  font-family: 'Poiret One', sans-serif;
+  text-decoration: 'none';
+  font-size: 3vh;
+  user-select: none;
+}
+
 .contact-pill{
   height: 100%;
   font-family: 'Inter';
@@ -50,14 +61,13 @@ nav {
   padding: 1vh 2vh;
   border-radius: 999px;
   font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 3vh;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   z-index: 99;
   cursor: pointer; 
   width: 15%;
   text-align: center;
+  margin-left: 4vh;
 }
 
 .contact-pill.active{

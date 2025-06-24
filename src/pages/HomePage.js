@@ -11,11 +11,12 @@ export default function HomePage() {
         <div className="content">
           <div className="recuperation">
             <span className="highlight">Recuperação</span> de crédito tributário
+            - ICMS
           </div>
           <div className="sub-text">
-            Identificamos créditos não aproveitados e transformamos tributos
-            pagos a mais em <span className="highlight">fluxo de caixa</span>{" "}
-            para sua empresa.
+            Oferecemos serviço especializado para identificação de oportunidades
+            de recuperação de <span className="highlight">crédito de ICMS</span>{" "}
+            de apropriação através da portaria CAT 83/09.
           </div>
           <div
             className="pill"
@@ -33,18 +34,16 @@ export default function HomePage() {
         </div>
         <div className="bottom-text">
           <div className="sub-text">
-            Somos um <span className="highlight">escritório especializado</span>{" "}
-            na atuação empresarial, com sócios e parceiros com mais de 10 anos
-            de atuação em demandas empresariais, cíveis, gestão e solução de
-            casos complexos, através de estratégias que buscam o equilíbrio
-            entre segurança e rapidez, por reconhecermos a necessidade dinâmica
-            do meio empresarial.
+            Somos um{" "}
+            <span className="highlight">uma empresa especializada</span> na
+            recuperação de crédito ICMS, com mais de cinco anos de atuação no
+            mercado e já auxiliamos empresas de diversos ramos a recuperarem
+            mais de <span className="highlight">500 milhões de reais</span> junto ao orgãos fiscais através da CAT 83/09.
           </div>
           <Space height={2} />
           <div className="sub-text">
             Temos experiência diferenciada no mercado, com atuação
-            sistematizada, procedimentos claros e focados na melhoria da
-            qualidade de atendimento do cliente.
+            sistematizada e procedimentos claros, oferecendo compliance empresarial, monitorando alterações legislativas e mitigando riscos.
           </div>
         </div>
       </div>

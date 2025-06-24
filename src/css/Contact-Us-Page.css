@@ -171,6 +171,10 @@ form textarea {
   font-family: 'Inter', serif;
 }
 
+.input-text{
+  font-size: 2vh;
+}
+
 @media (max-width: 768px) {
   .contact-us-text {
     width: 90%;
